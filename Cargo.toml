@@ -1,8 +1,8 @@
 [package]
 
-name = "four_in_a_row"
+name = "connect_four"
 version = "0.0.1"
 authors = ["Lennart Buit <lennartbuit@gmail.com>"]
 
 [[bin]]
-name = "four_in_a_row"
+name = "connect_four"
