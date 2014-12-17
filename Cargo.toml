@@ -1,0 +1,8 @@
+[package]
+
+name = "four_in_a_row"
+version = "0.0.1"
+authors = ["Lennart Buit <lennartbuit@gmail.com>"]
+
+[[bin]]
+name = "four_in_a_row"
