@@ -4,6 +4,7 @@ use model::board::Board;
 mod model;
 pub mod utils;
 
+#[allow(dead_code)]
 fn main() {
     println!("{}", Board::new_board());    
 }

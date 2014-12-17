@@ -5,7 +5,7 @@ use std::result;
 
 // Model imports
 use model::marks::Mark;
-use model::marks::{Red, Yellow, Empty};
+use model::marks::Empty;
 
 // Utils imports
 use utils::transpose;

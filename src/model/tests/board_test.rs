@@ -44,9 +44,10 @@ fn test_drop_mark_fails_negative() {
 }
 
 #[test]
+#[allow(unused_must_use)]
 fn test_drop_mark_full() {
     let mut board = Board::new_board();
-    for i in range(0, GRID_ROWS) {
+    for _ in range(0, GRID_ROWS) {
         board.drop_mark(0, Red);
     }
 
